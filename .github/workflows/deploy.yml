@@ -40,6 +40,7 @@ jobs:
          AUTH0_SECRET: ${{ secrets.AUTH0_SECRET }}
          AUTH0_MGMT_CLIENT_ID: ${{ secrets.AUTH0_MGMT_CLIENT_ID }}
          AUTH0_MGMT_CLIENT_SECRET: ${{ secrets.AUTH0_MGMT_CLIENT_SECRET }}
+         
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
